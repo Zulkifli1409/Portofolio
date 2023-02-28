@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+  /* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+  /* Page content */
+.content {
+    padding: 16px;
+}
+
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.custom-shape-divider-bottom-1675371903 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1675371903 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 136px;
+}
+
+.custom-shape-divider-bottom-1675371903 .shape-fill {
+    fill: #2C2627;
+}
+
+
+.pp {
+    float: right;
+    margin: -30px;
+}
+
+.home-span,.z{
+    text-transform: capitalize;
+	font-family: arial;
+	font-size: 75px;
+	color: black;
+	overflow: hidden;
+    text-align: right;
+
+}
