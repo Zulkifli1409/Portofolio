@@ -120,7 +120,7 @@ header {
 
 .about-content img {
   height: 200px;
-  width: 150px;
+  width: 200px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -320,8 +320,8 @@ header {
 }
 
 .proj-1 img {
-  height: 330px;
-  width: 380px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
@@ -391,8 +391,8 @@ header {
 }
 
 .proj-2 img {
-  height: 330px;
-  width: 380px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
